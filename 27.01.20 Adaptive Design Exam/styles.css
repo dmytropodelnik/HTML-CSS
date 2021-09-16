@@ -1,0 +1,444 @@
+body {
+    background-image: url(../images/bg.png);
+    color:#333333;
+}
+
+header p:first-child{
+    position: absolute;
+    top: 10px;
+    left: 5vw;
+}
+
+header p:last-child {
+    position: absolute;
+    top: 125px;
+    left: 5vw;
+    margin-left: 65px;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    position: relative;
+    left: 8vw;
+    margin-left: 276px;
+    min-height: 600px;
+    min-width: 320px;
+}
+
+main > nav {
+    display: flex;
+    flex-flow: row nowrap; 
+    height: 100px;
+    width: 67vw;
+    position: relative;
+    top: 25px;
+}
+
+main > nav > div {
+    flex-grow: 1;
+    border: 1px solid transparent;
+    text-align: center;
+    line-height: 0.1;
+    padding-top: 35px;
+    border-bottom-color: teal;
+    border-width: 2px;
+    margin-right: 25px;
+}
+
+section {
+    display: flex;
+    flex-flow: column nowrap;
+    position: relative;
+    top: 30px;
+    min-height: 120px;
+}
+
+h1 {
+    font-weight: normal;
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+    width: 65vw;
+    letter-spacing: 1.2px;
+    justify-content: center;
+    min-width: 500px;
+}
+
+section p {
+    display: flex;
+    position: relative;
+    width: 64.5vw;
+    line-height: 1.4;
+    min-height: 95px;
+    margin: 0px 0px 30px 0px;
+}
+
+article {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+article > div:first-child {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 65vw;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+article > div:first-child > div:nth-child(2n+1) {
+    border: 1px solid transparent;
+    width: 25vw;
+    border-bottom-color: teal;
+    border-width: 2px;
+}
+
+article > div:first-child > h2 {
+    font-size: 1.2em; 
+    word-wrap: normal;
+    width: 150px;
+    text-align: center;
+    font-weight: normal;
+}
+
+article > div:last-child {
+    display: flex;
+    flex-flow: row wrap;
+    width: 65vw;
+    margin-top: -10px;
+    justify-content: space-between;
+}
+
+article > div:last-child > figure img {
+    width: 120px;
+}
+
+article div figure {
+    margin: 5px 5px 5px 5px;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: -15px;
+}
+
+small {
+    font-size: 0.7em;
+}
+
+strong {
+    letter-spacing: 1.5px;
+}
+
+footer > div {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 65vw;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+footer > div > figure {
+    width: 320px;
+    height: 26px;
+    overflow: hidden;
+}
+
+footer > div > figure > img {
+    position: relative;
+    left: -590px;
+} 
+
+footer > div > div {
+    text-align: center;
+    font-size: 0.8em;
+    width: 280px;
+}
+
+footer {
+   display: flex;
+   flex-flow: column nowrap;
+   position: relative;
+   width: 100px;
+   height: 500px;
+   margin-left: 396px;
+}
+
+@media all and (min-width: 900px) and (max-width: 1200px) {
+
+    article > div:last-child > figure img {
+        width: 157px;
+    }
+
+    article > div:last-child {
+        width: 55vw;
+    }
+
+    article > div:first-child > div:nth-child(2n+1) {
+        width: 20vw;
+    }
+
+    article > div:first-child {
+        width: 55vw;
+    }
+
+    section p {
+        width: 54.5vw;
+    }
+
+    h1 {
+        width: 55vw;
+    }
+
+    main > nav {
+        width: 57vw;
+    }
+
+    footer {
+        margin-left: 357px;
+    }
+
+    footer > div {
+        width: 55vw;
+    }
+    
+    footer > div > div {
+        width: 330px;
+    }
+
+    footer > div > figure {
+        width: 530px;
+    }
+
+    footer > div > figure > img {
+        left: -480px;
+    } 
+
+    main > nav {
+        flex-direction: column;
+        width: 18vw;
+        top: 335px;
+        left: -255px;
+    }
+    
+    main > nav > div {
+        margin-left: 10px;
+        padding: 5px 0px;
+    }
+
+    main > nav > div:first-child {  
+        border-top-color: teal;
+    }
+
+    section {
+        top: 10px;
+    }
+    
+}
+
+@media all and (min-width: 480px) and (max-width: 900px) {
+    
+    article > div:last-child > figure img {
+        width: 115px;
+    }
+
+    aside > p:first-child {
+        display: none;
+    }
+
+    h1 {
+        width: 55vw;
+    }
+
+    aside > p:last-child {
+        top: 100px;
+        left: 18vw;
+    }
+
+    article > div:last-child {
+        width: 55vw;
+    }
+
+    article > div:first-child > div:nth-child(2n+1) {
+        width: 15vw;
+    }
+
+    article > div:first-child {
+        width: 55vw;
+    }
+
+    section p {
+        width: 54.5vw;
+    }
+
+    main {
+        margin-left: 0px;
+    }
+
+    footer {
+        margin-left: 65px;
+    }
+
+    footer > div {
+        width: 55vw;
+    }
+    
+    footer > div > div {
+        width: 330px;
+    }
+
+    footer > div > figure {
+        width: 400px;
+    }
+
+    footer > div > figure > img {
+        left: -550px;
+    } 
+
+    main > nav {
+        flex-direction: row;  
+        width: 57vw;
+        border: 2px solid transparent;
+        border-top-color: teal;
+        height: 50px;
+    }
+
+    main > nav > div {
+        padding: 0px;
+    }
+
+    main > nav > div > p {
+        margin-top: 10px;
+    }
+
+    main > nav > div:last-child {
+        margin: 0px;
+    }
+    
+    section {
+        top: 120px;
+        margin-bottom: 80px;
+    }
+}
+
+@media all and (max-width: 800px) {
+
+    footer > div > figure {
+        width: 320px;
+    }
+
+    footer > div > figure > img {
+        left: -590px;
+    } 
+
+    h1 {
+        min-width: 280px;
+        width: 55vw;
+        text-align: center;
+    }
+}
+
+@media all and (max-width: 670px) {
+
+    aside > p:last-child {
+        top: 100px;
+        left: 15vw;
+    }
+
+    main > nav {
+        margin-left: -3vw;
+        min-width: 345px;
+    }
+    
+    main {
+        margin-left: 20px;
+    }
+}
+
+@media all and (max-width: 650px) {
+
+    h1 {
+        height: 40px;
+        min-width: 280px;
+        text-align: center;
+    }
+
+    section p {
+        min-width: 320px;
+    }
+    
+}
+
+@media all and (max-width: 480px) {
+
+    article > div:last-child > figure img {
+        width: 130px;
+    }
+
+    aside > p:first-child {
+        display: none;
+    }
+
+    aside > p:last-child {
+        top: 100px;
+        left: 18vw;
+    }
+
+    article > div:last-child {
+        min-width: 320px;
+    }
+
+    article > div:first-child > div:nth-child(2n+1) {
+        width: 9vw;
+    }
+
+    article > div:first-child {
+        min-width: 320px;
+    }
+
+    main {
+        margin-left: 0px;
+    }
+
+    main > nav {
+        flex-direction: row;  
+        width: 57vw;
+        border: 2px solid transparent;
+        border-top-color: teal;
+        height: 50px;
+    }
+
+    main > nav > div {
+        padding: 0px;
+    }
+
+    main > nav > div > p {
+        margin-top: 10px;
+    }
+
+    main > nav > div:last-child {
+        margin: 0px;
+    }
+
+    footer {
+        margin-left: 3vw;
+    }
+
+    footer > div {
+        margin-left: 45px;
+    }
+    
+    section {
+        top: 120px;
+        margin-bottom: 80px;
+        min-width: 340px;
+    }
+}
+
+@media all and (max-width: 400px) {
+
+    footer {
+        margin-left: 35px;
+    }
+}

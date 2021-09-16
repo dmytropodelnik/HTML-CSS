@@ -1,0 +1,60 @@
+h1{
+    font-family:Arial;
+    font-size:1.5em;
+}
+
+h2{
+    font-family:Arial;
+    font-size:0.9em;
+}
+
+hr{
+    color:rgb(240, 239, 239);
+    margin-bottom:10px;   
+}
+
+#top-id{
+    font-style:italic;
+    margin:0px;
+}
+
+.bold-text{
+    font-weight:bold;
+}
+
+#id-contents{
+    font-weight:bold;
+    padding-left:120px;
+}
+
+#first-ol{
+    border:3px solid rgb(204, 203, 203);
+    margin-right:1100px;
+    padding-bottom:30px;
+    background-color:rgb(228, 227, 227);
+}
+
+.list-item{
+    color:blue;
+
+}
+
+a{
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline solid blue;
+}
+
+.small-text{
+    font-size:0.8em;
+}
+
+.medium-text{
+    font-size:1em;
+}
+
+#alg-compl{
+    font-size:0.7em;
+}

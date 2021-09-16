@@ -1,0 +1,45 @@
+body{
+    height:
+}
+
+.header{
+    background-color:lightgrey;
+    height:20vh;
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+}
+
+.header div{
+    margin:10px;
+}
+
+.content{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    flex-direction:column;
+    align-content:space-between;
+    min-height:80vh;
+    max-height:100vh;
+}
+
+.content div{
+    width:30%;
+    border:1px black solid;
+    text-align:justify;
+    margin:5px 0px;
+    padding:5px;
+}
+
+.content div:nth-child(3n+1){
+    order:1;
+}
+
+.content div:nth-child(3n+2){
+    order:2;
+}
+
+.content div:nth-child(3n){
+    order:3;
+}

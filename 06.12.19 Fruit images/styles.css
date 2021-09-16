@@ -1,0 +1,43 @@
+h1
+{
+    font-family:Arial;
+    font-size:1em;
+    text-align:center;
+}
+
+.image-border
+{
+   /* width:125px;
+    height:150px;*/
+    border: 2px solid lightgrey;
+    float:left;
+    margin:10px;
+    padding: 20px 20px 50px;
+    border-radius: 30px;
+    margin-bottom:20px;
+}
+
+hr
+{
+    color:lightgrey;
+}
+
+.name
+{
+    white-space: pre;
+    font-weight: bold;
+}
+
+.new-paragraph
+{
+    font-weight:bold;
+    text-align:center;
+    font-family:Arial;
+    font-size:0.8em;
+    white-space:pre;
+}
+
+#property
+{
+    clear:both;
+}

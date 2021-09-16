@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="styles.css" rel="stylesheet">
+    <title>Forms Practice 1</title>
+</head>
+<body>
+    
+   <div id="sub-block">
+      <p id="card-details">CREDIT CARD DETAILS</p>
+   </div>
+
+   <div id="main-block">
+      <form action="index.html" method="post">
+         <div>
+             <p class="card-data">Card Number</p>
+             <input class="long" type="number" name="card-number" placeholder="1234 5678 9012 3456"/>
+         </div>
+         <div>
+            <p class="card-data">Name On Card</p>
+            <input class="long" type="text" name="card-name" placeholder="Name Surname" />
+         </div>
+         <div>
+            <p class="card-data">Expiry Date</p>
+            <input class="short" type="number" name="expiry-month" placeholder="02" />
+         </div>
+         <div>
+            <input class="short" type="number" name="expiry-month" placeholder="2017" />
+         </div>
+         <div>
+            <p class="card-data">CVV / CVN</p>
+            <input class="short" type="password" name="CVV" placeholder="&bull;&bull;&bull;" />
+         </div>
+      </form>
+      <div id="image-box"></div>
+   </div>
+
+</body>
+</html>

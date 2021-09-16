@@ -1,0 +1,24 @@
+input {
+    border: 1px solid darkblue;
+    border-radius: 5px;
+}
+
+input:hover {
+    background-color:blue;
+}
+
+input[type="email"] {
+    background-color: grey;
+}
+
+option[selected] {
+    color:green;
+}
+
+input[type="text"]::placeholder {
+    color:yellow;
+}
+
+input:invalid {
+    background-color:red;
+}

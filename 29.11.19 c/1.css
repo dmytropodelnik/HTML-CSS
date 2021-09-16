@@ -1,0 +1,36 @@
+h1{
+    font-family: "Courier New", Arial, monospace;
+    font-size:1em;
+    font-style:italic;
+    text-align:center;
+    text-decoration:underline;
+    text-decoration-color:blue;
+    text-decoration-style:dashed;
+}
+
+p{
+    font: italic 1em Arial, Helvetica, sans-serif;
+    text-align:start;
+    border: 1px solid red; 
+}
+
+#p1{
+    font-family: 'Ubuntu', sans-serif;
+    background-image: linear-gradient(red, blue);
+}
+
+#p2{
+    font-family: 'Merriweather', serif;
+    background-image: linear-gradient(red, blue);
+}
+
+b{
+    border: 2px solid red;
+}
+
+.text-center span
+{
+    text-align: center;
+    background:red;
+    background: rgba(rgb(168, 11, 11),blue);
+}

@@ -1,0 +1,160 @@
+.flex-container {
+    display: flex;
+}
+
+.header-div {
+    flex-wrap: nowrap;
+}
+
+.header-div div, .aside-div div, footer div div{
+    background-color:grey;
+}
+
+.header-div div{
+    height: 15vh;
+    margin: 15px 10px;
+}
+
+.header-div div:first-child {
+    flex-grow: 1;
+}
+
+header div div:nth-child(2) {
+    flex-grow: 2;
+}
+
+header div div:last-child {
+    flex-grow: 4;
+}
+
+.main-flex-container {
+    display: flex; 
+    min-height: 1020px;
+    flex-flow: row nowrap;
+}
+
+.aside-div {
+    display: flex; 
+    min-height: 1025px;
+    width: 20vw;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
+.aside-div div {
+    margin: 15px 10px;
+    width: 18.5vw;
+    height: 250px;
+}
+
+.aside-div div:first-child {
+    flex-basis: 40%;
+}
+
+.aside-div div:last-child {
+    flex-basis: 10%;
+}
+
+#main-first-right-block{
+    margin: 15px 9px 17px 5px;
+    height: 35vh;
+    display: flex;
+}
+
+.right-side-main div {
+    background-color: lightgrey;
+}
+
+.right-side-main {
+    display: flex; 
+    flex-flow: column nowrap; 
+    flex-grow: 6;
+    margin-bottom: 15px;
+}
+
+.right-side-main > div:nth-child(2) {
+    display: flex;
+    flex-flow: row wrap; 
+    margin: 2px 0px 2px 5px;
+    background-color: transparent;
+    justify-content: flex-start;
+    width: 77vw;
+}
+
+.right-side-main > div:nth-child(2) > div {
+    width: 200px;
+    height: 30vh;
+    background-color: lightgrey;
+    margin: 5px 45.5px 20px 0px;
+}
+
+.right-side-main > div:nth-child(2) > div:nth-child(5) {
+    margin: 5px 0px 20px 0px;
+}
+
+.right-side-main > div:last-child {
+    display: flex;
+    flex-flow: row nowrap; 
+    margin: 2px 5px;
+    background-color: transparent;
+}
+
+.right-side-main > div:last-child > div:first-child {
+    flex-basis: 49%;
+    height: 35vh;
+    background-color: lightgrey;
+    margin-right: 20px;
+}
+
+.right-side-main > div:last-child > div:last-child {
+    flex-basis: 49%;
+    height: 35vh;
+    background-color: lightgrey;
+    margin-right: 2px;
+}
+
+hr {
+    margin: 3px 13px;
+}
+
+.footer-flex-container {
+    display: flex; 
+    height: 30vh;
+    flex-flow: column wrap; 
+    align-content: space-between;
+}
+
+footer div div {
+    margin: 15px 10px;
+}
+
+footer div div:first-child {
+    flex-basis: 100%;
+    width: 28vw;
+}
+
+footer div div:nth-child(2) {
+    flex-basis: 100%;
+    width: 28vw;
+}
+
+footer div div:nth-child(3) {
+    flex: 1 1 0;
+    width: 28vw;
+}
+
+footer div div:last-child {
+    flex: 1 1 0;
+    width: 28vw;
+}
+
+@media all and (max-width: 1535px) {
+    
+    .right-side-main > div:nth-child(2) {
+        justify-content: space-between;
+    }
+
+    .right-side-main > div:nth-child(2) > div {
+        margin: 5px 0px 20px 0px;
+    }
+}

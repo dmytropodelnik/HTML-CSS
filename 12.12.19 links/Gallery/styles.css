@@ -1,0 +1,42 @@
+h1{
+    text-align:center;
+    font-family:Arial;
+    border: 2px solid lightgrey;
+    padding:50px;
+    margin:5px 100px -1px;
+}
+
+#cat-tied{
+    text-align:center;
+    border: 2px solid lightgrey;
+    padding:50px;
+    margin: 0px 100px -1px;
+    border-top-color:transparent;
+}
+
+#left-cat{
+    border: 2px solid lightgrey;
+    padding:75px;
+    margin:-17px 0px 50px 100px;
+    border-top-color:transparent;
+    border-right-color:transparent;
+    float:left;
+}
+
+#right-cat{
+    border: 2px solid lightgrey;
+    padding:75px;
+    margin:-17px 0px 50px 0px;
+    border-top-color:transparent;
+    border-right-color:lightgrey;
+    float:left;
+}
+
+nav a{
+    border: 2px solid lightgrey;
+    padding:75px;
+    margin:-17px 0px 50px 0px;
+    border-top-color:transparent;
+    border-right-color:transparent;
+    float:left;
+}

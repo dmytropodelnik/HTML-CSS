@@ -1,0 +1,41 @@
+h1
+{
+    text-align:center;
+    font-size:1.3em;
+    font-family:Arial;
+}
+
+h2
+{
+    font-family:Arial;
+    font-size:0.9em;
+    text-align:left;
+}
+
+.small-text
+{
+    font-size:0.8em;
+}
+
+.formula
+{
+    background:#ffacac;
+    padding: 2px 7px;
+}
+
+.bold-italic-text
+{
+    font-weight:bold;
+    font-style:italic;
+}
+
+.bold-text
+{
+    font-weight:bold;
+    font-size:0.8em;
+}
+
+.align-center
+{
+    text-align:center;
+}

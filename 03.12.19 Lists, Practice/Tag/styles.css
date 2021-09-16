@@ -1,0 +1,33 @@
+h1
+{
+    font-family:Arial;
+    font-size:1em;
+    margin-left:15px;
+    margin-top:40px;
+}
+
+h2
+{
+    font-family:Arial;
+    font-size:0.8em;
+    font-weight:normal;
+    margin-left:18px;
+    margin-top:20px;
+}
+
+.italic-text
+{
+    font-style:italic;
+    margin-left:18px;
+    font-size:0.9em;
+}
+
+.grey-text
+{
+    color:grey;
+}
+
+.blue-text
+{
+    color:#6f70c2;
+}

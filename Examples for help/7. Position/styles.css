@@ -1,0 +1,44 @@
+div{
+    border: 1px solid blue;
+    background-color: lightblue;
+    margin: 5px;
+    padding: 5px;
+}
+
+.fixed{
+    position: fixed;
+    left: 100px;
+    top: 50px;
+
+    border: 1px solid magenta;
+    background-color: pink;
+}
+
+.relative{
+    position: relative;
+    left: 20px;
+    top: -20px;
+    width: 75%;
+    
+    border: 1px solid orangered;
+    background-color: orange;
+}
+
+.absolute{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+
+    border: 1px solid green;
+    background-color: greenyellow;
+}
+
+.sticky{
+    position: sticky;
+    left: 5px;
+    top: 5px;
+    z-index: 1000;
+
+    border: 1px solid purple;
+    background-color: plum;
+}

@@ -1,0 +1,24 @@
+.fruit
+{
+    font-family: Arial;
+    background:#9e354a;
+    color:whitesmoke;
+    padding:5px 10px;
+}
+
+.list
+{
+    font-family:Arial;
+    background:#ed9eae;
+    color:whitesmoke;
+    list-style-position:inside;
+    padding:20px;
+}
+
+.li
+{
+    font-family:Arial;
+    background:#c66376;
+    margin-bottom:10px;
+    padding:5px 7px;
+}

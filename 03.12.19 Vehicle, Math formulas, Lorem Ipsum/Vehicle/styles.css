@@ -1,0 +1,27 @@
+h1
+{
+    font-family:Arial;
+}
+
+.top-index
+{
+vertical-align: super;
+color:darkblue;
+font-weight:bold;
+font-size:0.7em;
+}
+
+p
+{
+    font-family:Arial;
+}
+
+hr
+{
+    color:lightgrey;
+}
+
+.small-text
+{
+font-size:0.8em;
+}

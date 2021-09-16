@@ -1,0 +1,27 @@
+table{
+   border-spacing:10px;
+   border-collapse:collapse;
+   caption-side:bottom;
+}
+
+thead{
+    background-color:darkblue;
+}
+
+tbody{
+    background-color:palevioletred;
+}
+
+tfoot{
+    background-color:peru;
+}
+
+td, th{
+    border:1px solid black;
+}
+
+.first-col{
+    width:200px;
+    color:white;
+    background-color:coral;
+}

@@ -1,0 +1,27 @@
+table{
+   border-spacing: 0px;
+   border-collapse: collapse; 
+   caption-side: bottom;
+}
+
+thead{
+   
+    background-color: cornflowerblue;
+}
+
+tbody{
+    background-color: bisque;
+}
+
+tfoot{
+    background-color: cadetblue;
+}
+
+td, th{
+    border:1px solid black;
+}
+
+.first-col{
+    width: 200px;
+
+}

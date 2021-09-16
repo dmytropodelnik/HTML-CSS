@@ -1,0 +1,117 @@
+thead th:nth-child(2) {
+    background-color:lightskyblue;
+    border-top-left-radius: 5px;
+}
+
+thead th:nth-child(3) {
+    background-color:lightblue;
+}
+
+tfoot td:nth-child(3) {
+    background-color:lightblue;
+}
+
+tfoot td:nth-child(4) {
+    background-color:rgb(117, 117, 163);
+}
+
+thead th:nth-child(4) {
+    background-color:rgb(117, 117, 163);
+}
+
+thead th:last-child {
+    background-color:rgb(73, 73, 122);
+    border-top-right-radius: 5px;
+}
+
+tfoot td:last-child {
+    background-color:darkblue;
+    border-bottom-right-radius: 5px;
+}
+
+tfoot td:nth-child(2) {
+    background-color:lightskyblue;
+    border-bottom-left-radius: 5px;
+}
+
+table {
+    font-family: Arial;
+    text-align: center;
+    font-size: 0.9em;
+    border-collapse: collapse;
+    margin: 0px auto;  
+}
+
+thead {
+    color:brown;
+    text-shadow: 1px 1px 0px white;
+}
+
+thead th {
+    border-color: transparent;
+    text-align: center;
+    height: 40px;
+    width: 25px;
+}
+
+thead th:first-child {
+    border: none;
+}
+
+thead tr:last-child th {
+    border-bottom-color:black;
+}
+
+tbody tr:first-child td {
+    border-top-color:black;
+    border-top-width: 5px;
+}
+
+tfoot td {
+    color:black;
+    text-shadow: 1px 1px 0px white;
+    font-weight: bold;
+    border-color: transparent;
+}
+
+tbody tr td:nth-child(2n) {
+    background: linear-gradient(180deg, rgb(214, 214, 214), rgb(172, 172, 172));
+    color: black;
+}
+
+tbody tr td:nth-child(2n+1) {
+    background: linear-gradient(180deg, rgb(133, 133, 133), rgb(73, 73, 73));
+    color: white;
+}
+
+tbody tr td:first-child {
+    background: none;
+    border: none;
+    color:grey;
+    font-weight: bold;
+    line-height: 180%;
+    width: 142px;
+    text-align: right;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px 15px;
+}
+
+tfoot tr {
+    font-size: 1.5em;
+}
+
+tfoot td:first-child {
+    font-size: 0.7em;
+}
+
+tbody tr:nth-child(4) {
+    font-weight: bold;
+    font-size: 1.5em;
+ }
+
+ tbody tr:nth-child(4) td:first-child{
+    font-size: 0.7em;
+}

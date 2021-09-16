@@ -1,0 +1,43 @@
+h1
+{
+    text-align:left;
+    font-family:Arial;
+    font-size:2em;
+    margin-left:40px;
+}
+
+.square-cyan-list
+{
+    list-style-image:url(../../image/unchecked_16.png);
+    background:#a5ccda;
+    list-style-position:inside;
+    padding:10px 40px;
+}
+
+.square-blue-list
+{
+    list-style-image:url(../../image/unchecked_16.png);
+    background:#add8e6;
+    list-style-position:inside;
+    padding:10px 40px;
+}
+
+.square-creamy-list
+{
+    list-style-image:url(../../image/checked_16.png);
+    background:#e2e2e2;
+    list-style-position:inside;
+    padding:10px 40px;
+}
+
+.red-small-text
+{
+    font-size:0.6em;
+    color:darkred;
+}
+
+div
+{
+    text-decoration:line-through;
+    display:inline;
+}

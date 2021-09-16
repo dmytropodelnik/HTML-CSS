@@ -1,0 +1,193 @@
+* {
+    font-family: Arial;
+}
+
+.header {
+    font-weight: bold;
+}
+
+input {
+    padding: 5px 5px;
+    text-align: left;
+    border-radius: 3px;
+    margin: 2px 2px 30px 2px;
+    float: left;
+}
+
+form {
+    clear: both;
+}
+
+input[name="checked-text"] {
+    border-width: 2px;  
+    position: absolute;
+    top: 49px;
+    left: 200px;
+}
+
+input[name="checked-text"] ~ div {
+    position: absolute;
+    left: 365px;
+    top: 55px;
+    display: none;
+}
+
+input[name="checked-text"]:empty {
+    border-color:lightgrey;
+}
+
+input[name="checked-text"]:valid {
+    border-color:lightgreen;
+}
+
+input[name="checked-text"]:valid + div {
+    color:lightgreen;
+    display: block;
+}
+
+input[name="checked-text"]:invalid {
+    border-color:red;
+}
+
+input[name="checked-text"]:invalid ~ div[tick] {
+    color:red;
+    display: block;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    font-size: 0.9em;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 30px;
+}
+
+input[type="checkbox"] + label:before {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    border: 1px solid black;
+    margin-right: 5px;
+    content: " ";
+    vertical-align: middle;
+    border-radius: 4px;
+}
+
+input[type="checkbox"] ~ div {
+    position: absolute;
+    display: block;
+    width: 22px;
+    height: 17px;
+    border: 1px solid black;
+    border-radius: 4px;
+    top: 147px;
+    left: 25px;
+    background-color: rgb(192, 3, 3);
+}
+
+input[id="checkbox-1"]:checked ~ div {
+    background-color: rgb(35, 218, 35);
+    top: 147px;
+    left: 9px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"] + label:before {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    margin-right: 5px;
+    content: " ";
+    border-radius: 10px;
+    vertical-align: bottom;
+}
+
+input[type="radio"]:checked + label:before {
+    background-color:lightgreen;
+}
+
+.untouched {
+    color:rgb(184, 183, 183);
+}
+
+form:nth-child(3) p:nth-child(2) {
+    font-size: 0.9em;
+}
+ 
+input[type="radio"]:checked {
+    color:lightgreen;
+}
+
+form:nth-child(4) div {
+    float: left;
+}
+
+input[id="active-button"] {
+    background-color: rgb(47, 206, 47);
+}
+
+input[id="active-button"]:hover {
+    background-color:green;
+}
+
+input[id="danger-button"] {
+    background-color:rgb(216, 86, 108);
+}
+
+input[id="danger-button"]:hover {
+    background-color:rgb(119, 26, 41);
+}
+
+input[id="disabled-button"]:disabled {
+    background-color:rgb(151, 146, 146);
+}
+
+input[type="button"] {
+    padding: 5px 15px;
+    color:white;
+}
+
+input[class="round-button"] {
+    width: 35px;
+    height: 34px;
+    border-radius: 17px;
+    padding: 0px;
+    text-align: center;
+}
+
+input[name="green-round"] {
+    background-color: green;
+}
+
+input[name="red-round"] {
+    background-color: red;
+}
+
+.green-round-button {
+    border-radius: 25px;
+    width: 30px;
+    background-color: green;
+    border-color: green;
+}
+
+.red-round-button {
+    border-radius: 25px;
+    width: 30px;
+    background-color: red;
+    border-color: red;
+}
+
+textarea::placeholder {
+    font-size: 0.9em;
+}
+
+textarea {
+    padding: 5px 10px;
+}

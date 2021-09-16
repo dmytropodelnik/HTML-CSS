@@ -1,0 +1,20 @@
+ul {
+    list-style-type: square;
+}
+
+.star-marker{
+    list-style-image: url(../img/star.png);
+}
+
+.marker-position{
+    list-style-position: inside;
+}
+
+ol {
+    list-style-type: lower-alpha;
+}
+
+/*контекстный селектор*/
+ol ol{
+    list-style: decimal;
+}

@@ -1,0 +1,30 @@
+ul
+{
+    list-style-type: square;
+}
+
+ol
+{
+    list-style-type: upper-roman;
+}
+
+.marked
+{
+list-style-image: url(../../image/photo_2019-12-03_11-12-30.jpg);
+}
+
+.marker-position
+{
+    list-style-position: inside;
+}
+
+ul 
+{
+    list-style-type: upper-roman;
+}
+
+
+ul ul
+{
+    list-style:decimal;
+}

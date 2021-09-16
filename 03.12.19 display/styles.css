@@ -1,0 +1,26 @@
+.div1 span{
+    border:1px solid blue;
+    background-color:lightblue;
+    padding:5px;
+    width:100px;
+    height:50px;
+}
+
+span.inline-block{
+    border:1px solid blue;
+    background-color:lightblue;
+    padding:5px;
+    width:100px;
+    height:50px;
+    display:inline-block;
+}
+
+span.none{
+    display:none;
+}
+
+div.last:hover span{
+
+    display:inline;
+
+}

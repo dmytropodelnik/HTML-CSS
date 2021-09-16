@@ -1,0 +1,50 @@
+body{
+    font: 0.6em Arial;
+}
+
+ul {
+    color:white;
+    list-style: none;
+    text-align: center;
+    position: relative;
+}
+
+ul li{
+    float:left;
+    background-color:rgb(17, 131, 17);
+    border: 1px solid rgb(63, 63, 63);
+    margin-right: -1px;
+    padding: 7px 25px;
+    width: 50px;
+    height: 10px;
+}
+
+ul ul {
+    list-style: none;
+    top: 10px;
+    left: -66px;
+    top: 6px;
+    display: none;
+}
+
+ul ul ul{
+    left: 35px;
+    top: -18.5px;
+    visibility: hidden;
+}
+
+ul li:hover ul{
+    display: block;
+}
+
+ul li:hover ul li:hover ul{
+    visibility: visible;
+}
+
+ul li:hover {
+    background-color:rgb(12, 99, 12);
+}
+
+p {
+    clear: both;
+}

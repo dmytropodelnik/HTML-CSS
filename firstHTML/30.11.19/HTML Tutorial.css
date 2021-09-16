@@ -1,0 +1,32 @@
+h1
+{
+    font-family:Arial;
+    text-align:center;
+}
+
+h2
+{
+    font-family:Arial;
+    text-align:center;
+}
+
+hr
+{
+    color:lightgrey;
+}
+
+#html
+{
+    text-decoration:underline dotted black;
+}
+
+.tag
+{
+    background:rgb(221, 221, 221);
+}
+
+#plast
+{
+    font-weight:bold;
+    font-size:small;
+}

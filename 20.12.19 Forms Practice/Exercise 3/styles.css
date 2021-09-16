@@ -1,0 +1,103 @@
+* {
+    font-family: Arial;
+}
+
+input {
+    padding: 5px;
+    border-color: transparent;
+    border-bottom-color: black;
+    margin-right: 25px;
+}
+
+input::placeholder {
+    font-size: 0.9em;
+}
+
+img {
+    float: left;
+    margin-right: 15px;
+}
+
+#second-row {
+    position: absolute;
+    top: 150px;
+}
+
+p:nth-child(2) {
+    position: absolute;
+    left: 430px;
+    top: 0px;
+}
+
+select {
+    position: absolute;
+    border-color: transparent;
+    border-bottom-color: black;
+    width: 213px;
+    top: 148px;
+    right: 538px;
+    padding: 5px;
+}
+
+#last {
+    position: absolute;
+    right: 240px;
+    top: 150px;
+}
+
+div[id="last"] input {
+    width: 230px;
+}
+
+form div img[alt="password"] {
+    position: absolute;
+    top: 240px;
+    left: 8px;
+}
+
+input[name="password"] {
+    position: absolute;
+    top: 240px;
+}
+
+input[name="confirm-password"] {
+    position: absolute;
+    top: 240px;
+    left: 247px;
+}
+
+input[name="s-offers"] {
+    position: absolute;
+    top: 350px;
+    left: 23px;
+}
+
+input[name="agreement"] {
+    position: absolute;
+    top: 374px;
+    left: 23px;
+}
+
+input[name="s-offers"] + label {
+    font-size: 0.7em;
+    position: absolute;
+    top: 351px;
+    left: 60px;
+}
+
+input[name="agreement"] + label {
+    font-size: 0.7em;
+    position: absolute;
+    top: 375px;
+    left: 60px;
+}
+
+input[type="submit"] {
+    position: absolute;
+    top: 450px;
+    right: 240px;
+    color:white;
+    background-color:rgb(66, 88, 88);
+    padding: 5px 20px;
+    font-size: 0.6em;
+}

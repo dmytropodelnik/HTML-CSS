@@ -1,0 +1,16 @@
+body{
+    background-image:url(../../images/Фон-из-кубиков.jpg);
+    background-color: #c7b39b;
+    background-attachment: fixed;
+}
+
+p{
+    font-family:Arial;
+    font-size:1em;
+    white-space:pre;
+    color:white;
+    margin: -10px auto;
+    width:70%;
+    padding: 50px 50px;
+    background-color:rgba(88, 88, 88, 0.9);
+}
